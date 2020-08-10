@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CranBerry sing up</title>
+    <link rel="shortcut icon" href="assets/logoCB.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/singUp.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <div id="headerLogo">
+            <a href="">
+                <img src="assets/logoCB.svg" height="65px">
+            </a>
+        </div>
+        <nav class="headerNav">
+            <ul>
+                <li>
+                    <a href="">CranBerry</a>
+                </li>
+                <li>
+                    <a href="">Courses</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Partners</a>
+                </li>
+            </ul>
+        </nav>
+        <div></div>
+    </header>
+    <div class="dgd"></div>
+    <!-- Header end -->
+    <main>
+        <div class="las">
+            <h4>Already have a CranBerry account? <a href="">Log In</a></h4>
+        </div>
+        <div class="las">
+            <h2>Create an account using:</h2>
+            <div>
+                <a href="TwitterLogin.html" class="social twitter">
+                    <img src="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png" alt="twitter">
+                    Twitter
+                </a>
+                <a href="GoogleLogin.html" class="social google">
+                    <img src="https://edxuploads.s3.amazonaws.com/btn_google_light.svg" alt="google">
+                    Google
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Create a CranBerry account</h1>
+            <h4 id="error">Fill all the blanks</h4>
+            <div>
+                <input type="text" placeholder="First Name" id="firstName">
+                <input type="text" placeholder="Last Name" id="lastName">
+            </div>
+            <input type="text" placeholder="E-mail" id="email">
+            <input type="password" placeholder="Password" id="password">
+            <input type="password" placeholder="Confirm your password" id="password2">
+            <div style="display: flex; align-items: center;"><input type="checkbox">
+                <div>I agree with the <a href="">Terms
+                        and
+                        Conditions</a></div>
+            </div>
+            <a class="button" id="singUpButton">Create Account</a>
+        </div>
+
+    </main>
+
+    <script type="text/javascript" src="js/singUp.js"></script>
+</body>
+
+</html>
