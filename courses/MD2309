@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CranBerry Free Online Courses</title>
+    <meta property="og:title" content="CS50's Mobile App Development with React Native" />
+    <meta property="og:type" content="site" />
+    <meta property="og:description" content="Learn about mobile app development with React Native, a popular framework maintained by Facebook that
+                    enables cross-platform native apps using JavaScript without Java or Swift." />
+    <meta property="og:url" content="https://cranberryoficial.com" />
+    <meta property="og:image" content="https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png" />
+    <link rel="shortcut icon" href="../assets/logoCB.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/course.css">
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header>
+        <div id="headerLogo">
+            <a href="">
+                <img src="../assets/logoCB.svg" height="65px">
+            </a>
+        </div>
+        <nav class="headerNav">
+            <ul>
+                <li>
+                    <a href="">CranBerry</a>
+                </li>
+                <li>
+                    <a href="">Courses</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Partiners</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="header">
+            <a href="../singUp.html">Login</a> |
+            <a href="../singUp.html"> Sign up</a>
+        </div>
+    </header>
+    <div class="dgd"></div>
+    <!-- Header end -->
+    <main>
+        <div class="breadcrumb">
+            <a>Courses</a>>
+            <a>Computer Science</a>>
+            <a>HarvardX's Computer Science and MobileApps</a>
+        </div>
+        <div class="info">
+            <img src="https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png" alt="img"
+                style="width: 300px; height: 150px; margin-bottom: 20px;">
+            <div>
+                <h1>CS50's Mobile App Development with React Native</h1>
+                <p>Learn about mobile app development with React Native, a popular framework maintained by Facebook that
+                    enables cross-platform native apps using JavaScript without Java or Swift.</p>
+                <img src="https://international-sustainable-campus-network.org/wp-content/uploads/2019/10/harvard-university-logo-iscn-international-sustainable-campus-network-member.png"
+                    alt="havard" style="width: 200px;">
+            </div>
+        </div>
+        <div class="getIn">
+            <a href="../singUp.html">Fresh Start Now!</a>
+            Real college courses from Harvard, MIT, and more of the world’s leading universities.
+        </div>
+    </main>
+</body>
+
+</html>
